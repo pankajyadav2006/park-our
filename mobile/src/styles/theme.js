@@ -1,0 +1,123 @@
+export const COLORS = {
+    light: {
+        primary: '#1E88E5',
+        primaryDark: '#1565C0',
+        primaryLight: '#42A5F5',
+        accent: '#FF6B6B',
+        accentDark: '#EE5A52',
+        secondary: '#5E35B1',
+        background: '#FFFFFF',
+        surface: '#F5F5F5',
+        surfaceLight: '#FAFAFA',
+        card: '#FFFFFF',
+        border: '#E0E0E0',
+        text: '#212121',
+        textSecondary: '#757575',
+        textLight: '#9E9E9E',
+        free: '#4CAF50',
+        freeDark: '#388E3C',
+        occupied: '#F44336',
+        occupiedDark: '#D32F2F',
+        reserved: '#FF9800',
+        reservedDark: '#F57C00',
+        success: '#4CAF50',
+        warning: '#FF9800',
+        error: '#F44336',
+        info: '#2196F3',
+        divider: '#EEEEEE',
+        shadow: 'rgba(0, 0, 0, 0.1)',
+    },
+    dark: {
+        primary: '#64B5F6',    
+        primaryDark: '#42A5F5',
+        primaryLight: '#90CAF9',
+        accent: '#FF8A80',         
+        accentDark: '#FF5252',
+        secondary: '#9575CD',      
+        background: '#121212',     
+        surface: '#1E1E1E',        
+        surfaceLight: '#2C2C2C',   
+        card: '#1E1E1E',           
+        border: '#333333',         
+        text: '#FFFFFF',           
+        textSecondary: '#B0B0B0',  
+        textLight: '#757575',      
+        free: '#81C784',           
+        freeDark: '#66BB6A',
+        occupied: '#E57373',       
+        occupiedDark: '#EF5350',
+        reserved: '#FFB74D',       
+        reservedDark: '#FFA726',
+        success: '#81C784',
+        warning: '#FFB74D',
+        error: '#E57373',
+        info: '#64B5F6',
+        divider: '#333333',
+        shadow: 'rgba(0, 0, 0, 0.5)',
+    }
+};
+
+export const SPACING = {
+    xs: 4,
+    sm: 8,
+    md: 16,
+    lg: 24,
+    xl: 32,
+    xxl: 48,
+};
+
+export const TYPOGRAPHY = {
+    sizes: {
+        xs: 12,
+        sm: 14,
+        md: 16,
+        lg: 18,
+        xl: 24,
+        xxl: 32,
+    },
+    weights: {
+        regular: '400',
+        medium: '500',
+        semibold: '600',
+        bold: '700',
+    },
+};
+
+export const BORDER_RADIUS = {
+    sm: 8,
+    md: 12,
+    lg: 16,
+    xl: 24,
+    full: 9999,
+};
+
+export const SHADOWS = {
+    sm: {
+        shadowColor: '#000',
+        shadowOffset: { width: 0, height: 1 },
+        shadowOpacity: 0.05,
+        shadowRadius: 2,
+        elevation: 1,
+    },
+    md: {
+        shadowColor: '#000',
+        shadowOffset: { width: 0, height: 2 },
+        shadowOpacity: 0.08,
+        shadowRadius: 4,
+        elevation: 3,
+    },
+    lg: {
+        shadowColor: '#000',
+        shadowOffset: { width: 0, height: 4 },
+        shadowOpacity: 0.12,
+        shadowRadius: 8,
+        elevation: 5,
+    },
+    card: {
+        shadowColor: '#000',
+        shadowOffset: { width: 0, height: 2 },
+        shadowOpacity: 0.1,
+        shadowRadius: 6,
+        elevation: 3,
+    },
+};
